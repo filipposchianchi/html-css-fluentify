@@ -126,3 +126,16 @@ header:after {
   color: white;
   margin-top: 4%;
 }
+
+/* REGOLE PARAGRAFO SOTTO HEADER */
+.scuole_trad {
+  background: #EEEEEE;
+  padding: 40px;
+  text-align: center;
+}
+.scuole_trad h3{
+  margin-bottom: 1%
+}
+.scuole_trad p {
+  text-align: center;
+} */
