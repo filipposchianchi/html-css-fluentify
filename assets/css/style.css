@@ -5,133 +5,119 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 /* REGOLE GENERALI HEADER */
 header {
+  background: darkblue;
   width: 100%;
-  background-color: darkblue;
 }
-
-/* REGOLE IMMAGINE LOGO */
-.logo {
-  margin-left: 7%;
-  margin-top: 2%;
-  float: left;
-
-}
-
-/* REGOLE GENERALI NAVBAR */
+/* REGOLE NAVBAR */
 .navbar {
-  /* display: inline-block; */
-  margin-left: 5%;
-  float: left;
-  margin-top: 2%
-}
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 13px;
+  padding-top: 2%;
 
-.navbar ul {
-  list-style-type: none;
 }
-/* CLEARFIX UL */
-.navbar ul:after {
+/* CLEARFIX NAVBAR */
+.navbar:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* REGOLE LIST ITEM */
-.navbar li {
+.col1 {
+  width: 15%;
   float: left;
-  text-align: center;
-  font-size: 13px;
-  margin-right: 15px;
 }
 
-/* REGOLE PER IL LINK */
-.navbar a {
-  color: white;
-  line-height: 35px;
-  text-decoration: none;
-}
-.navbar a:hover {
-  color: orange;
+.col2 {
+  width: 50%;
+  float: left;
 }
 
-/* LIST ITEM "diventa un tutor" */
-.navbar  li .tutor {
-  margin-left: 200px;
-  color: darkgrey;
+.col3 {
+  width: 35%;
+  float: right;
 }
 
-/* REGOLE BOTTONI */
-.login_btn {
-  border: 1px solid blue;
-  background-color: inherit;
-  font-size: 12px;
-  cursor: pointer;
+.col2 ul, .col3 ul {
+  list-style-type: none;
+  line-height: 50px;
+}
+
+.col2 li, .col3 li {
   display: inline-block;
-  border-radius: 5px;
-  padding-left: 25px;
-  padding-right: 25px;
+}
+
+.col2 a, .col3 a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+}
+
+#link4 {
+  color: grey;
+}
+
+#link5 {
+  border: 1px solid;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-}
-
-.strut_btn {
-  background-color: green;
-  font-size: 12px;
-  cursor: pointer;
-  display: inline-block;
-  padding: 4px;
-  border-radius: 5px;
   padding-left: 15px;
   padding-right: 15px;
+  border-radius: 4px;
+}
+
+#link6 {
+  background: green;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
 }
 
-/* REGOLE IMMAGINE HEADER */
-.container_img {
-  width: 53%;
-  height: 400px;
-  float: right;
-  background: url(../img/immagine_header.png);
-  background-size: cover;
-  margin-top: 2%;
-}
 
-/* REGOLE TITOLO */
-.container_titolo {
-  float: left;
-  color: white;
-  width: 40%;
-  margin-left: 7%;
-  margin-top: 8%;
-
-}
-
-h1 {
-  font-size: 43px;
-}
-/* CLEARFIX HEADER */
-header:after {
+.seconda_riga_header:after{
   content: "";
   display: table;
   clear: both;
 }
+.col1_head2{
+  float:left;
+  width: 50%;
+  margin-top: 5%;
+}
 
-/* REGOLE BUTTON TITOLO*/
-.button_titolo {
-  background-color: green;
-  cursor: pointer;
-  border-radius: 5px;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+.col2_head2{
+  float:left;
+  width: 50%;
+  margin-top: 2%;;
+}
+
+.immagine_header {
+  width: 100%;
+  height: 100%;
+}
+
+.titolo {
+  font-size: 43px;
+  margin-left: 20%;
   color: white;
-  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.link_sottotitolo {
+  background: green;
+  color: white;
+  text-decoration: none;
+  margin-left: 20%;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* REGOLE PARAGRAFO SOTTO HEADER */
@@ -225,7 +211,7 @@ h4 {
   height: 600px;
   background: blue;
 }
-
+/* REGOLE PRIMA PARTE FOOTER */
 .container_prima_parte{
   width: 100%;
   height: 30%;
