@@ -355,7 +355,7 @@ h4 {
   color: white;
   font-size: 30px;
   position: absolute;
-  left: 7%;
+  left: 10%;
   top: 25%
 }
 span {
@@ -365,7 +365,7 @@ span {
   color: darkgrey;
   font-size: 22px;
   position: absolute;
-  left: 7%;
+  left: 10%;
   top: 45%
 }
 
@@ -379,7 +379,7 @@ span {
 /* REGOLE NAVFOOTER */
 .navfooter {
   margin-top: 5%;
-  margin-left: 7%;
+  margin-left: 10%;
   float: left;
 }
 .azienda {
