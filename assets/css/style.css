@@ -199,11 +199,55 @@ h4 {
 /* REGOLE HR LUNGO */
 .hr_lungo {
   border-top: 2px solid;
-  width: 99%;
+  width: 94%;
   margin-bottom: 5%;
   opacity: 0.5;
   margin-top: 60px;
+  margin-left: 3%;
+  margin-left: 3%;
 }
+/* BLOCCO DUE COLONNE CON IMMAGINE A SINISTRA */
+.container_due_col:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+.container_due_col {
+  margin-left: 15%;
+  margin-right: 15%
+}
+.collo1 {
+  float: left;
+  width: 44%;
+  margin-right: 6%
+}
+.img_mountain {
+  width: 100%;
+  height: 100%;
+}
+.collo2 {
+  float: left;
+  width: 44%;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+.collo2 h3 {
+  font-size: 35px;
+}
+.collo2 p {
+  color: grey;
+  font-size: 22px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.collo2 a {
+  font-size: 22px;
+  color: lightblue;
+}
+
+
+
+
 
 /* CONTAINER GENERALE FOOTER */
 .container_footer {
