@@ -16,17 +16,20 @@ header {
 .logo {
   margin-left: 7%;
   margin-top: 2%;
+  float: left;
+
 }
 
 /* REGOLE GENERALI NAVBAR */
 .navbar {
-  display: inline-block;
+  /* display: inline-block; */
   margin-left: 5%;
+  float: left;
+  margin-top: 2%
 }
 
 .navbar ul {
   list-style-type: none;
-  display: inline;
 }
 /* CLEARFIX UL */
 .navbar ul:after {
