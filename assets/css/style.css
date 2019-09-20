@@ -375,16 +375,20 @@ span {
   display: table;
   clear: both;
 }
+.container_seconda_parte {
+  width: 100%
+}
 
 /* REGOLE NAVFOOTER */
 .navfooter {
   margin-top: 5%;
   margin-left: 10%;
+  width: 40%;
   float: left;
 }
 .azienda {
   color: white;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
   font-size: 20px;
 }
 .navfooter ul {
@@ -392,7 +396,7 @@ span {
 }
 .navfooter li {
   font-size: 20px;
-  margin-bottom: 10%
+  margin-bottom: 2%;
 }
 .navfooter a {
   text-decoration: none;
@@ -401,6 +405,7 @@ span {
 
 /* REGOLE SECONDA COLONNA SECONDA PARTE FOOTER */
 .container_seconda_colonna {
+  width: 25%;
   float: right;
   margin-right: 25%;
   margin-top: 5%;
